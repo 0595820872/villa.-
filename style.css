@@ -1,0 +1,705 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+   
+}
+
+.section1, .section2, .section3, .section4 {
+    padding: 20px;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.mail img {
+    width: 25px;
+    margin-right: 10px;
+}
+
+.icon img {
+    width: 20px;
+    margin-left: 10px;
+}
+
+header {
+    text-align: center;
+}
+
+nav {
+    margin: 15px 0;
+}
+
+nav a {
+    margin: 0 17px;
+    text-decoration: none;
+    color: #333;
+}
+
+.contain {
+    text-align: center;
+    position: relative;
+    margin-bottom: 4rem;
+}
+
+.contain img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.text {
+    margin-top: -50px;
+    color: white;
+    padding: 20px;
+}
+
+.text p{
+    font-size: 2rem;
+    top: 20%;
+    position: absolute;
+    left: 5%;
+    line-height: 2rem;
+}
+
+
+.text .pa{
+    font-size: 2rem;
+    top: 30%;
+    position: absolute;
+    left: 5%;
+    margin-top: 1rem;
+}
+
+
+.text .para{
+    font-size: 2rem;
+    top: 40%;
+    position: absolute;
+    left: 5%;
+    margin-top: 2rem;
+}
+
+.content{
+    width: 100%;
+    display: flex;
+    margin-bottom: 4rem;
+}
+
+.content img{
+    width: 40%;
+    height: 80vh;
+    margin-left: 5%;
+    object-fit: cover;
+}
+
+.text-content{
+    display: block;
+    padding-left: 3rem;
+    width: 50%;
+}
+
+.text-content h6{
+    color: rgb(238, 84, 84);
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+}
+
+.text-content h3{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    max-width: 250px;
+}
+
+.dropdown {
+    position: relative;
+    background-color: white;
+    border: none;
+    color: black;
+    text-align: justify;
+    margin-bottom: 1rem;
+}
+
+.click{
+    background-color: white;
+    border: none;
+    color: black;
+}
+
+.click:hover{
+    color: red;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.content1{
+    position: relative;
+}
+.content1 img {
+    width: 100%;
+    height: 100vh;
+    filter: blur(10px);
+    -webkit-filter: blur(10px);
+    object-fit: cover;
+}
+
+
+.content1 h6{
+    top: 10%;
+    color: rgb(238, 84, 84);
+    font-size: 0.8rem;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    left: 45%;
+}
+
+.content1 h3{
+    top: 12%;
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    position: absolute;
+   left: 35%;
+}
+
+.content1-img {
+    position: absolute;
+    margin-top: -15%;
+    width: 70%;
+    left: 15%;
+}
+
+.content1-img img{
+    width: 100%;
+    border-radius: 20px;
+    height: 100vh;
+    object-fit: cover;
+    left: 15%;
+}
+
+.sub-content {
+    position: relative;
+    margin-top: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.sub{
+    margin-left: 3%;
+    width: 25%;
+    border-radius: 10px;
+    display: flex;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background: #e5c5c5;
+}
+
+.sub a{
+    display: flex;
+    width: 100%;
+    text-decoration: none;
+}
+
+.sub p{
+    text-decoration: none;
+    width: 20%;
+    font-weight: 700;
+    margin-left: 2%;
+    margin-right: 10%;
+    padding-top: 5%;
+    font-size: 2rem;
+    color: #f02f2f;
+}
+
+.sub h5{
+    width: 60%;
+    padding-top: 5%;
+    line-height: 1.3rem;
+    font-size: 1rem;
+    color: rgb(57, 55, 55);
+}
+
+
+.content2 {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #eeeeee;
+    padding-top: 5rem;
+    height: auto;
+}
+
+
+.header-name h6{
+    color: #b74b4b;
+    font-size: 1rem;
+}
+
+.header-name h2{
+    font-size: 2rem;
+    font-weight: 780;
+    line-height: 1.7rem;
+    margin-bottom: 1rem;
+}
+
+.navigation a{
+    font-size: 1.3rem;
+    color: rgb(90, 86, 86);
+    padding-left: 1rem;
+    text-decoration: none;
+}
+
+.navigation a:hover{
+    color: #f02f2f;
+}
+
+.navigation{
+    margin-bottom: 1.5rem;
+}
+
+
+.deal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.deal-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 60%;
+    height: 60vh;
+    margin-bottom: 3rem;
+    border-radius: 10px;
+    box-shadow: 7px 7px 8px 10px #888888;
+    border: 2px solid #eeeeee;
+}
+
+.deal-text{
+    display: flex;
+    border-bottom: 2px solid #eeeeee;
+}
+
+.deal-text h6{
+    font-size: 0.9rem;
+    margin-right: 2rem;
+    color: rgb(182, 162, 162);
+}
+
+.deal img {
+    width: 70%;
+    height: auto;
+    border-radius: 20px;
+    margin-bottom: 3rem;
+    object-fit: cover;
+}
+
+.deal-content2{
+    width: 60%;
+    margin-left: 5%;
+}
+
+.deal-content2 h3{
+    font-size: 1rem;
+    margin-bottom: 0.2rem;
+}
+
+.deal-content2 p{
+    font-size: 0.9rem;
+    color: rgb(164, 158, 158);
+    margin-bottom: 1rem;
+}
+
+.deal-content2 a{
+    text-decoration: none;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    border-radius: 30px;
+    margin-bottom: 4rem;
+    margin-left: 10%;
+    color: rgb(255, 255, 255);
+    background: rgb(195, 193, 193);
+}
+
+.deal-content2 a:hover{
+    background: #f02f2f;
+}
+
+
+.content3{
+    margin-top: 3rem;
+}
+
+
+.content3 h6{
+    color: #f02f2f;
+    font-size: 0.9rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.content3 h1{
+    text-align: center;
+    font-weight: 800;
+    font-size: 2.7rem;
+    margin-bottom: 4rem;
+}
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.image-1 {
+    height: 140vh;
+    border: 1px solid #ccc;
+    margin: 10px;
+    flex: 1 1 calc(30% - 20px); /* Three columns */
+    max-width: 300px;
+    text-align: center;
+    background: #eeeeee;
+    border-radius: 10px;
+}
+
+.image-1 img {
+    width: 90%;
+    height: 60vh;
+    object-fit: cover;
+    border-radius: 20px;
+    padding-top: 1rem;
+}
+
+.image-1 .price{
+    text-align: center;
+    display: block;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+
+.image-1 .price a{
+  padding:  0.5rem 1rem 0.5rem 1rem;
+    border-radius: 30px;
+    color: black;
+    background: #cfc9c9;
+    text-decoration: none;
+}
+
+.image-1 .price a:hover{
+    color: #f02f2f;
+}
+
+.image-1 .price p{
+    font-size: 1.3rem;
+    margin-top: 0;
+}
+
+.image-1 .Schedule{
+    margin-left: 5%;
+   padding: 0.5rem 1rem 0.5rem 1rem;
+   text-decoration: none;
+    border-radius: 30px;
+    color: rgb(255, 255, 255);
+    background: rgb(156, 155, 155);
+}
+
+.image-1 .Schedule:hover{
+    color: #f02f2f;
+}
+
+
+.content4{
+    margin-top: 6rem;
+    width: 100%;
+    position: relative;
+    margin-bottom: 5rem;
+}
+
+.content4 img{
+    width: 100%;
+    filter: blur(7px);
+    -webkit-filter: blur(7px);
+    object-fit: cover;
+    height: 80vh;
+}
+
+.content4 h6{
+    color: #f02f2f;
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    font-size: 1rem;
+}
+
+.content4 h2{
+    color: white;
+    position: absolute;
+    top: 43%;
+    left: 32%;
+    font-size: 1.8rem;
+    font-weight: 800;
+    line-height: 1.5rem;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; border-radius: 10px;
+    box-shadow: 15px 15px 10px   #888888;
+}
+
+form {
+    max-width: 400px;
+    width: 100%;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+}
+
+
+
+
+.Section5{
+    width: 100%;
+    height: auto;
+    margin-top: 6rem;
+    padding-bottom: 5rem;
+    background: rgba(195, 238, 251, 0.842);
+}
+
+.top{
+    display: flex;
+    padding-top: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.top img{
+    width: 40%;
+    height: 40vh;
+    border-radius: 30px;
+    margin-left: 2rem;
+}
+
+.first h6{
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+.first p{
+    color: rgb(175, 161, 161);
+    width: 80%;
+    line-height: 1.3rem;
+    margin-bottom: 3rem;
+}
+
+.first{
+    width: 30%;
+    height: 40vh;
+    padding-left: 3rem;
+}
+
+
+
+
+
+.Section6{
+    width: 100%;
+    height: auto;
+}
+
+.down{
+    width: 100%;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+}
+
+.down h2{
+    width: 30%;
+    font-size: 2rem;
+}
+
+.resource{
+    width: 30%;
+    margin-top: 3rem;
+    text-decoration: none;
+}
+
+.resource h3{
+    color: rgb(55, 182, 169);
+}
+
+.resource a{
+    text-decoration: none;
+    line-height: 1.5rem;
+    color: rgb(107, 153, 148);
+}
+
+.info{
+    width: 30%;
+    margin-top: 1.2rem;
+}
+
+.info h3{
+    color: rgb(55, 182, 169);
+}
+
+.info p{
+    margin-top: 1rem;
+    line-height: 1rem;
+    color: rgb(107, 153, 148);
+}
+
+.info a{
+    color: rgb(107, 153, 148);
+    width: 90%;
+    font-size-adjust: 50%;
+}
+
+
+@media (max-width: 768px) {
+    .head {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav a {
+        margin: 10px 0;
+    }
+
+    .text {
+        margin-top: -30px;
+    }
+
+    .deal-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .images {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .image-1 {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    form {
+        width: 90%;
+    }
+
+        
+.sub-content{
+    display: block;
+    margin-top: 20rem;
+}
+
+.sub{
+    margin-left: 22%;
+    padding-left: 2%;
+    width: 55%;
+    margin-bottom: 2rem;
+}
+
+.content1-img {
+    margin-top: -30%;
+}
+
+}
+
+@media (max-width: 480px) {
+    .head {
+        padding: 10px 0;
+    }
+
+    .icon img {
+        width: 18px;
+    }
+
+    .mail img {
+        width: 20px;
+    }
+
+    header h4 {
+        font-size: 1.5em;
+    }
+
+    .text-content h6, .text-content h3 {
+        font-size: 1.2em;
+    }
+
+    form input, form textarea {
+        padding: 8px;
+    }
+
+    .content1-img {
+        margin-top: -50%;
+    }
+
+    .first p{ 
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+            
+.sub-content{
+    display: block;
+    margin-top: 40rem;
+}
+
+}
+
+@media(max-width:1440px){
+    .deal-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .image-1{
+        height: auto;
+    }
+}
